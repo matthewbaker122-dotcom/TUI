@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TUI Onboard | Flight Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b3d91;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: #0033a0;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      color: #0033a0;
+      margin: 15px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #e6ecff;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>TUI Onboard</h1>
+  <p>Flight Information Portal</p>
+</header>
+
+<div class="container">
+
+  <div class="card" onclick="alert('Connect to WiFi or app')">
+    ✈️ Flight Tracker
+  </div>
+
+  <div class="card" onclick="alert('Manage your booking online')">
+    📄 Manage Booking
+  </div>
+
+  <div class="card" onclick="alert('Check-in opens before departure')">
+    ✅ Check-in
+  </div>
+
+  <div class="card" onclick="alert('View baggage allowance details')">
+    🧳 Baggage Info
+  </div>
+
+  <div class="card" onclick="alert('Meals available onboard')">
+    🍽️ Food & Drinks
+  </div>
+
+  <div class="card" onclick="alert('Contact crew for assistance')">
+    🆘 Help & Support
+  </div>
+
+</div>
+
+<footer>
+  © 2026 TUI Airways | Onboard Services
+</footer>
+
+</body>
+</html>
